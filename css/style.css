@@ -280,12 +280,17 @@ section.newsletter {
   font-size: 1.3rem;
   margin-bottom: 25px;
 }
+
 .newsletter form{
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
   gap: 50px;
+}
+.newsletter form label {
+  visibility: hidden;
+  height:20px;
 }
 .newsletter form input{
   width: 100%;
@@ -432,6 +437,10 @@ p.attribution a{
     color: var(--Light-p);
     margin-top:90px;
     background: var(--Dark-Blue-footer);
+  }
+  .newsletter form label {
+    visibility: hidden;
+    height:0px;
   }
 }
 
