@@ -218,7 +218,6 @@ section.testimonials {
   background-repeat: no-repeat;
   justify-content: space-between;
   padding:3rem 1rem;
-  flex-wrap: wrap;
 }
 .box-testimonials {
   width: 460px;
@@ -491,6 +490,10 @@ p.attribution a{
   .testimonials .container {
     gap:20px;
     justify-content:center;
+    flex-direction: column;
+  }
+  .box-testimonials {
+    width:100%;
   }
   .box-testimonials p{
     color: var(--Light-p);
