@@ -218,6 +218,7 @@ section.testimonials {
   background-repeat: no-repeat;
   justify-content: space-between;
   padding:3rem 1rem;
+  gap:30px;
 }
 .box-testimonials {
   width: 460px;
